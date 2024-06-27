@@ -1,5 +1,18 @@
 #!/bin/bash
 
+# @file whenConnected.sh
+# @brief Runs executables when connected to configured network and/or VPN.
+# @option --add Adds the given values to the given network config
+# @option --set Sets the given values for the given network config
+# @option --vpn The VPN regex pattern (grep extended)
+# @option --ip  The IPv4 regex pattern (grep extended)
+# @option --ssid The Wi-Fi SSID regex pattern (grep extended)
+# @option --on-connect Comma separated list of executables to launch if connected
+# @option --on-vpn Comma separated list of executables to launch if connected via VPN
+# @arg $1 string Network nickname in config
+# @author AMJones <am@jonesiscoding.com
+# @revision
+
 ## region ###################################### Static Variables
 
 isDebug=false
@@ -393,4 +406,4 @@ fi
 
 exit 0
 
-## endregion ################################### Preference Variables
+## endregion ################################### Run Code
