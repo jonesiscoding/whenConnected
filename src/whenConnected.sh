@@ -10,7 +10,7 @@
 # @option --on-connect Comma separated list of executables to launch if connected
 # @option --on-vpn Comma separated list of executables to launch if connected via VPN
 # @arg $1 string Network nickname in config
-# @author AMJones <am@jonesiscoding.com
+# @author AMJones <am@jonesiscoding.com>
 # @revision
 
 ## region ###################################### Static Variables
