@@ -1,0 +1,48 @@
+{
+  "title": "whenConnected (com.deviscoding.whenConnected)",
+  "description": "whenConnected Managed Settings",
+  "properties": {
+    "networks": {
+      "type": "array",
+      "title": "Networks",
+      "items": {
+        "type": "object",
+        "title": "Network Config",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Network Nickname"
+          },
+          "ssid": {
+            "type": "string",
+            "title": "SSID Regex Pattern"
+          },
+          "ip": {
+            "type": "string",
+            "title": "IPv4 Regex Pattern for Network"
+          },
+          "vpn": {
+            "type": "string",
+            "title": "IPv4 Regex Pattern for VPN Network"
+          },
+          "on_connect": {
+            "type": "array",
+            "title": "Run on Connect",
+            "items": {
+              "type": "string",
+              "title": "Path to App or Executable"
+            }
+          },
+          "on_vpn": {
+            "type": "array",
+            "title": "Run on VPN Connection",
+            "items": {
+              "type": "string",
+              "title": "Path to App or Executable"
+            }
+          }
+        }
+      }
+    }
+  }
+}

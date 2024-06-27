@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>networks</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>example</string>
+			<key>ssid</key>
+			<string>(Example|Example Guest)</string>
+			<key>vpn</key>
+			<string>(10\.10\.2(7|3))</string>
+			<key>ip</key>>
+			<string>(10\.10\.32)</string>
+		    <key>on_connect</key>
+			<array>
+				<string>/Applications/TimeClock.app</string>
+			</array>
+		    <key>on_vpn</key>
+			<array>
+				<string>/Applications/TimeClock.app</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
